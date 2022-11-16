@@ -1,5 +1,5 @@
 ﻿# Stealth Bastard Deluxe
-# Steam Level Upload
+# Level Upload (Steam/GOG)
 
 function POST-steam-studio-upload-level.php {
     Param($Context)

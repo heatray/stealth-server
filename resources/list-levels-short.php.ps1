@@ -1,5 +1,5 @@
 ﻿# Stealth Bastard Deluxe
-# Free Level List
+# Free Level List (Steam/GOG)
 
 function GET-list-levels-short.php {
     Param($Context)

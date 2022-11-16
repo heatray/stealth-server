@@ -1,7 +1,7 @@
 ﻿# Stealth Bastard Deluxe
-# Free/Deluxe Level Leaderboard Upload (Steam/GOG)
+# Campaign Level Leaderboard Upload (GOG)
 
-function GET-post-time-dl-level.php {
+function GET-post-time.php {
     Param($Context)
 
     $table = $Context.Request.QueryString.Item("table")

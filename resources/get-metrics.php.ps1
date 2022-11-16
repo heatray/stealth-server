@@ -1,5 +1,5 @@
 ﻿# Stealth Bastard Deluxe
-# Community Stats Download
+# Community Stats Download (Steam/GOG)
 
 function GET-get-metrics.php {
     Param($Context)

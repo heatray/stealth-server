@@ -1,5 +1,5 @@
 ﻿# Stealth Bastard Deluxe
-# Free Level Rate
+# Free Level Rate (Steam/GOG)
 
 function GET-rate-level.php {
     Param($Context)

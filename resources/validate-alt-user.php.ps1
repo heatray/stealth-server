@@ -1,7 +1,7 @@
 ﻿# Stealth Bastard Deluxe
-# Login User (Steam)
+# Login User (GOG)
 
-function GET-validate-user.php {
+function GET-validate-alt-user.php {
     Param($Context)
 
     $user = $Context.Request.QueryString.Item("user")

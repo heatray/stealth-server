@@ -1,5 +1,5 @@
 ﻿# Stealth Bastard Deluxe
-# Deluxe Level Download
+# Deluxe Level Download (Steam/GOG)
 
 $header = "id", "username", "levelname", "size", "uid", "stars", "rated"
 $levels = Import-Csv -Path "static\s1\deluxe_levels.csv" -Header $header
