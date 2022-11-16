@@ -22,5 +22,11 @@ function GET-steam-download-level.php {
 
 function FromBase64String {
     param($string)
-    return [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($string))
+    try {
+        $ret = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($string))
+    }
+    catch {
+        $ret = ""
+    }
+    return $ret
 }
