@@ -1,7 +1,7 @@
 ﻿# Stealth Inc 2 PlayStation
 # Level List
 
-function GET-si2-steam-list-levels.php {
+function GET-si2-sony-list-levels.php {
     Param($Context)
 
     $limit = $Context.Request.QueryString.Item("limit")

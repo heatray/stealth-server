@@ -1,7 +1,7 @@
 ﻿# Stealth Inc 2 PlayStation
 # Level Upload
 
-function POST-si2-steam-upload-level.php {
+function POST-si2-sony-upload-level.php {
     Param($Context)
 
     $levelname = FromBase64String($Context.Request.QueryString.Item("levelname"))

@@ -1,7 +1,7 @@
 ﻿# Stealth Inc 2 PlayStation
 # Level Flag Content
 
-function GET-si2-steam-flag-content.php {
+function GET-si2-sony-flag-content.php {
     Param($Context)
 
     $id = $Context.Request.QueryString.Item("id")

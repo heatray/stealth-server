@@ -1,7 +1,7 @@
 ﻿# Stealth Inc 2 PlayStation
 # Level Rate
 
-function GET-si2-steam-rate.php {
+function GET-si2-sony-rate.php {
     Param($Context)
 
     $id = $Context.Request.QueryString.Item("id")

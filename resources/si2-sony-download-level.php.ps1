@@ -4,7 +4,7 @@
 $header = "id", "username", "levelname", "stars", "rated"
 $levels = Import-Csv -Path "static\s2\levels.csv" -Header $header
 
-function GET-si2-steam-download-level.php {
+function GET-si2-sony-download-level.php {
     Param($Context)
 
     $id = $Context.Request.QueryString.Item("id")

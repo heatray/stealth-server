@@ -1,7 +1,7 @@
 ﻿# Stealth Inc 2 PlayStation
 # Level Overwrite Upload
 
-function POST-si2-steam-overwrite-level.php {
+function POST-si2-sony-overwrite-level.php {
     Param($Context)
 
     $levelname = FromBase64String($Context.Request.QueryString.Item("levelname"))
