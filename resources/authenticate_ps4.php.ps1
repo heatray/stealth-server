@@ -7,7 +7,7 @@ function POST-authenticate_ps4.php {
     $issuer = $Context.Request.QueryString.Item("issuer")
 
     Write-Host ("Issuer: $issuer")
-    Write-Host ("Content: " + $Context.Request.RawContent)
+    Write-Host ("Data: " + $Context.Request.RawContent)
 
-    ""
+    "0"
 }

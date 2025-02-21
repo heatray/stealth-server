@@ -4,7 +4,7 @@
 function POST-authenticate_ps3.php {
     Param($Context)
 
-    Write-Host ("Content: " + $Context.Request.RawContent)
+    Write-Host ("Data: " + $Context.Request.RawContent)
     
-    ""
+    "0"
 }
