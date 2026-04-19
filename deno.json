@@ -1,4 +1,8 @@
 {
+  "tasks": {
+    "start": "deno run --allow-env --allow-net --allow-read --allow-write src/main.ts",
+    "build": "deno compile --allow-env --allow-net --allow-read --allow-write --output stealthserver src/main.ts"
+  },
   "imports": {
     "@oak/oak": "jsr:@oak/oak@^17.2.0"
   }
